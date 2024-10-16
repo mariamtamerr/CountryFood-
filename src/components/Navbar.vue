@@ -33,11 +33,11 @@ const isOpen = ref(false);
               @click="isOpen = !isOpen"
               type="button"
               class="hs-collapse-toggle size-8 flex justify-center items-center text-sm font-semibold rounded-full bg-neutral-800 text-white disabled:opacity-50 disabled:pointer-events-none"
-              id="hs-navbar-floating-dark-collapse"
+              id="hs-navbar-floating- d-collapse"
               aria-expanded="false"
-              aria-controls="hs-navbar-floating-dark"
+              aria-controls="hs-navbar-floating- d"
               aria-label="Toggle navigation"
-              data-hs-collapse="#hs-navbar-floating-dark"
+              data-hs-collapse="#hs-navbar-floating- d"
             >
               <svg
                 v-if="!isOpen"
@@ -78,10 +78,10 @@ const isOpen = ref(false);
 
         <!-- Collapse -->
         <div
-          id="hs-navbar-floating-dark"
+          id="hs-navbar-floating- d"
           :class="isOpen ? 'block text-center ' : 'hidden'"
           class="hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block"
-          aria-labelledby="hs-navbar-floating-dark-collapse"
+          aria-labelledby="hs-navbar-floating- d-collapse"
         >
           <div
             class="flex md:mr-14 lg:mr-32 xl:mr-80 flex-col md:flex-row md:items-center lg:justify-between py-2 md:py-0 md:ps-7"
