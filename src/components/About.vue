@@ -12,7 +12,7 @@
     <!-- End Col -->
 
     <div class="lg:order-1  mx-auto md:max-w-[600px]  lg:max-w-[484px]">
-      <p class="mb-5 font-bold  inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xl  text-[#D71F29]">
+      <p class="mb-2 font-bold  inline-flex items-center gap-1.5 py-1.5 px-3 rounded-lg text-xl  text-[#D71F29]">
         من نحن
       </p>
 

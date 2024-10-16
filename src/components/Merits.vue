@@ -33,7 +33,7 @@
 
         <div class="lg:order-2 mx-auto md:max-w-[600px] lg:max-w-[484px]">
           <h2
-            class="text-2xl text-center lg:text-right font-bold lg:leading-tight xl:leading-tight text-gray-800 d:text-neutral-200"
+            class="text-2xl text-center  font-bold lg:leading-tight xl:leading-tight text-gray-800 d:text-neutral-200"
           >
             تطبيق جوال للعملاء
           </h2>
