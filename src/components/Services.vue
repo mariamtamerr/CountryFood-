@@ -21,6 +21,7 @@
         <a
           class="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition d:hover:bg-white/10 d:focus:bg-white/10"
           href="#"
+            onclick="event.preventDefault();"
         >
           <div class="aspect-w-16 aspect-h-10">
             <img
@@ -47,7 +48,7 @@
         <a
           class="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition d:hover:bg-white/10 d:focus:bg-white/10"
           href="#"
-        >
+          onclick="event.preventDefault();">
           <div class="aspect-w-16 aspect-h-10">
             <img
               class="w- mx-auto object-cover rounded-xl"
@@ -73,7 +74,7 @@
         <a
           class="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition d:hover:bg-white/10 d:focus:bg-white/10"
           href="#"
-        >
+          onclick="event.preventDefault();">
           <div class="aspect-w-16 aspect-h-10">
             <img
               class="w- mx-auto object-cover rounded-xl"
@@ -99,7 +100,7 @@
         <a
           class="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition d:hover:bg-white/10 d:focus:bg-white/10"
           href="#"
-        >
+          onclick="event.preventDefault();">
           <div class="aspect-w-16 aspect-h-10">
             <img
               class="w- mx-auto object-cover rounded-xl"
@@ -125,7 +126,7 @@
         <a
           class="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition d:hover:bg-white/10 d:focus:bg-white/10"
           href="#"
-        >
+          onclick="event.preventDefault();">
           <div class="aspect-w-16 aspect-h-10">
             <img
               class="w- mx-auto object-cover rounded-xl"
@@ -151,7 +152,7 @@
         <a
           class="group hover:bg-gray-100 focus:outline-none focus:bg-gray-100 rounded-xl p-5 transition d:hover:bg-white/10 d:focus:bg-white/10"
           href="#"
-        >
+          onclick="event.preventDefault();">
           <div class="aspect-w-16 aspect-h-10">
             <img
               class="w- mx-auto object-cover rounded-xl"

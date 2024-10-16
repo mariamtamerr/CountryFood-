@@ -20,7 +20,8 @@
           <div class="mt-10 text-center">
             <a
               class="group inline-flex items-center py-3 px-8 bg-[#D71F29] hover:scale-110 hover:bg-[#e63740] transition-transform duration-300  ease-in-out font-medium text-lg text-white rounded-full focus:outline-none"
-              href="#contact"
+              href="#download-app"
+                onclick="event.preventDefault();"
             >
               ابدأ الآن
             </a>
@@ -622,7 +623,8 @@
                     <div class="mt-5">
                       <button
                         type="submit"
-                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-full border border-transparent bg-[#D71F29] text-white hover:scale-110 hover:bg-[#e63740] transition-transform duration-300  ease-in-out focus:outline-none focus:bg-[#e63740] disabled:opacity-50 disabled:pointer-events-none"
+                          onclick="event.preventDefault();"
+                        class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-full border border-transparent bg-[#D71F29] text-white hover:scale-105 hover:bg-[#e63740] transition-transform duration-300  ease-in-out focus:outline-none focus:bg-[#e63740] disabled:opacity-50 disabled:pointer-events-none"
                       >
                         ابدأ الآن
                       </button>
