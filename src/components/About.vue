@@ -26,7 +26,7 @@
       </h4>
 
       <div class="mt-10"> 
-          <a class="group inline-flex items-center py-3 px-8 hover:bg-[#e63740]  bg-[#D71F29] hover:scale-110 font-medium text-lg text-white rounded-full focus:outline-none" href="#download-app">
+          <a class="group contactButton inline-flex items-center py-3 px-8  bg-[#D71F29] font-medium text-lg text-white rounded-full focus:outline-none" href="#download-app">
             تواصل معنا
           </a>
         </div>
@@ -43,3 +43,18 @@
 
 </script>
 
+
+<style>
+
+
+.contactButton {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.contactButton:hover {
+  background-color: #e63740;
+  transform: scale(1.1);
+}
+
+
+</style>
