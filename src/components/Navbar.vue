@@ -7,15 +7,18 @@ const isOpen = ref(false);
 <template>
   <div class="bg-black font-pingAR">
     <!-- ========== HEADER ========== -->
-    <header
+    <!-- <header
       class="sticky container bg- top-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[66rem] before:mx-2 before:lg:mx-auto before:rounded-[26px]"
+    > -->
+    <header
+      class="sticky container bg- top-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[] before:mx-2 before:lg:mx-auto before:rounded-[26px]"
     >
       <!-- border-b border-[#FFFFFF29]  -->
       <!-- <nav
         class="relative max-w-[85rem] w-full py-2.5 xl:ps-48 sm:ps-10 md:flex md:items-center md:justify-between md:py-5 mx-2 lg:mx-auto"
       > -->
       <nav
-        class="relative max-w-[85rem] mx-auto w-full py-2.5 lg:ps-44 ps-10  md:flex md:items-center md:justify-between"
+        class="relative max-w-[90rem] mx-auto w-full py-2.5 lg:ps-44 ps-10  md:flex md:items-center md:justify-between"
       >
         <div class="flex items-center justify-between">
           <!-- Logo -->
