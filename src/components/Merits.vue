@@ -18,7 +18,7 @@
 
       <!-- Grid -->
       <div
-        class="grid mt-0 md:-mt-96 lg:-mt-24 grid-cols-1 lg:grid-cols-2 lg:items-center gap-8"
+        class="grid mt-4 sm:mt-0 md:-mt-96 lg:-mt-24 grid-cols-1 lg:grid-cols-2 lg:items-center gap-8"
       >
         <div class="lg:order-1">
           <div class="lg:relative pt-[50%] lg:pt-[100%] rounded-lg">
