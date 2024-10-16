@@ -12,7 +12,7 @@ const isOpen = ref(false);
     >
       <!-- border-b border-[#FFFFFF29]  -->
       <nav
-        class="relative max-w-[] w-full py-2.5 xl:ps-48 sm:ps-10 md:flex md:items-center md:justify-between md:py-5 mx-2 lg:mx-auto"
+        class="relative max-w-[85rem] w-full py-2.5 xl:ps-48 sm:ps-10 md:flex md:items-center md:justify-between md:py-5 mx-2 lg:mx-auto"
       >
         <div class="flex items-center justify-between">
           <!-- Logo -->
@@ -79,7 +79,7 @@ const isOpen = ref(false);
         <!-- Collapse -->
         <div
           id="hs-navbar-floating- d"
-          :class="isOpen ? 'block text-center ' : 'hidden'"
+          :class="isOpen ? 'inline-block text-center ' : 'hidden'"
           class="hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block"
           aria-labelledby="hs-navbar-floating- d-collapse"
         >
@@ -88,6 +88,8 @@ const isOpen = ref(false);
           >
             <div class="uls">
               <a
+              style="
+              display: inline-block;"
                 class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
                 href="#about"
               >
@@ -115,9 +117,9 @@ const isOpen = ref(false);
                 حمل التطبيق</a
               >
             </div>
-            <div class="button justify-end">
+            <div class="button ">
               <a
-                class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#D71F29] font-medium text-sm text-white rounded-full focus:outline-none"
+                class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#D71F29] hover:scale-105 hover:bg-[#e63740] font-medium text-sm text-white rounded-full focus:outline-none"
                 href="#download-app"
               >
                 تواصل معنا

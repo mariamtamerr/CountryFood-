@@ -26,7 +26,7 @@
       </h4>
 
       <div class="mt-10"> 
-          <a class="group inline-flex items-center py-3 px-8 bg-[#D71F29] font-medium text-lg text-white rounded-full focus:outline-none" href="#contact">
+          <a class="group inline-flex items-center py-3 px-8 hover:bg-[#e63740]  bg-[#D71F29] hover:scale-110 font-medium text-lg text-white rounded-full focus:outline-none" href="#contact">
             تواصل معنا
           </a>
         </div>
