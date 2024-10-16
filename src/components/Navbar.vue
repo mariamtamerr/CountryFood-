@@ -25,6 +25,7 @@ const isOpen = ref(false);
           <a
             class="flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80"
             href="#"
+              onclick="event.preventDefault();"
             aria-label="CountryFood"
           >
             <div class="logos flex gap-3 w-28 h-auto">
@@ -85,15 +86,16 @@ const isOpen = ref(false);
         <!-- Collapse -->
         <div
           id="hs-navbar-floating- d"
-          :class="isOpen ? 'inline-block text-center ' : 'hidden'"
+          :class="isOpen ? 'block text-center ' : 'hidden'"
           class="hs-collapse overflow-hidden transition-all duration-300 basis-full grow md:block"
           aria-labelledby="hs-navbar-floating- d-collapse"
         >
           <div
             class="flex  md:mr-14 lg:mr-32 xl:mr-80 flex-col md:flex-row md:items-center lg:justify-between py-2 md:py-0 md:ps-7"
           >
+        
           
-            <div class="uls">
+            <div class="uls flex flex-col md:block">
               <a
               style="
               display: inline-block;"
