@@ -11,8 +11,11 @@ const isOpen = ref(false);
       class="sticky container bg- top-4 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full before:absolute before:inset-0 before:max-w-[66rem] before:mx-2 before:lg:mx-auto before:rounded-[26px]"
     >
       <!-- border-b border-[#FFFFFF29]  -->
-      <nav
+      <!-- <nav
         class="relative max-w-[85rem] w-full py-2.5 xl:ps-48 sm:ps-10 md:flex md:items-center md:justify-between md:py-5 mx-2 lg:mx-auto"
+      > -->
+      <nav
+        class="relative max-w-[85rem] mx-auto w-full py-2.5 lg:ps-44 ps-10  md:flex md:items-center md:justify-between"
       >
         <div class="flex items-center justify-between">
           <!-- Logo -->
@@ -84,34 +87,35 @@ const isOpen = ref(false);
           aria-labelledby="hs-navbar-floating- d-collapse"
         >
           <div
-            class="flex md:mr-14 lg:mr-32 xl:mr-80 flex-col md:flex-row md:items-center lg:justify-between py-2 md:py-0 md:ps-7"
+            class="flex  md:mr-14 lg:mr-32 xl:mr-80 flex-col md:flex-row md:items-center lg:justify-between py-2 md:py-0 md:ps-7"
           >
+          
             <div class="uls">
               <a
               style="
               display: inline-block;"
-                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
+                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-500 focus:outline-none focus:text-neutral-300"
                 href="#about"
               >
                 من نحن</a
               >
               <a
-                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
+                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-500 focus:outline-none focus:text-neutral-300"
                 href="#merits"
                 >مميزاتنا</a
               >
               <a
-                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
+                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-500 focus:outline-none focus:text-neutral-300"
                 href="#services"
                 >ماذا نقدم لك
               </a>
               <a
-                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
+                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-500 focus:outline-none focus:text-neutral-300"
                 href="#reviews"
                 >آراء العملاء</a
               >
               <a
-                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-none focus:text-neutral-300"
+                class="p-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-500 focus:outline-none focus:text-neutral-300"
                 href="#download-app"
               >
                 حمل التطبيق</a
