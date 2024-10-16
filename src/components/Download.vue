@@ -19,7 +19,7 @@
 
           <div class="mt-10 text-center">
             <a
-              class="group inline-flex items-center py-3 px-8 bg-[#D71F29] font-medium text-lg text-white rounded-full focus:outline-none"
+              class="group inline-flex items-center py-3 px-8 bg-[#D71F29] hover:scale-110 hover:bg-[#e63740] transition-transform duration-300  ease-in-out font-medium text-lg text-white rounded-full focus:outline-none"
               href="#contact"
             >
               ابدأ الآن
