@@ -89,9 +89,8 @@
             <form>
               <div class="lg:max-w-lg lg:mx-auto lg:me-0 ms-auto">
                 <!-- Card -->
-                <div
-                  class="p-4 sm:p-7 flex flex-col bg-white rounded-2xl shadow-lg d:bg-neutral-900"
-                >
+                <!-- <div class="p-4 mt-7 flex flex-col bg-white rounded-2xl shadow-[10px_0_20px_-10px_rgba(0,0,0,0.3)]"> -->
+                <div class="p-4 md:mt-7 flex flex-col bg-white rounded-2xl ">
                   <div class="mt-5">
                     <!-- Grid -->
                     <div class="grid grid-cols-2 gap-4">
@@ -102,12 +101,12 @@
                           <input
                             type="text"
                             id="hs-hero-signup-form-floating-input-new-password"
-                            class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 focus:pt-6 focus:pb-2 bg-[#F5F5F5] [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
+                            class="peer p-5 block w-full border-gray-200 rounded-full text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 focus:pt-6 focus:pb-2 bg-[#F5F5F5] [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
                             placeholder="********"
                           />
                           <label
                             for="hs-hero-signup-form-floating-input-new-password"
-                            class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
+                            class="absolute top-0 start-3 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
                           >
                             الاسم
                           </label>
@@ -345,12 +344,12 @@
                           <input
                             type="phone"
                             id="hs-hero-signup-form-floating-input-new-password"
-                            class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 bg-[#F5F5F5] focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
+                            class="peer p-5 block w-full border-gray-200 rounded-full text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 bg-[#F5F5F5] focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
                             placeholder="********"
                           />
                           <label
                             for="hs-hero-signup-form-floating-input-new-password"
-                            class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
+                            class="absolute top-0 start-3 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
                             >رقم الجوال</label
                           >
                         </div>
@@ -587,11 +586,11 @@
                           <input
                             type="email"
                             id="hs-hero-signup-form-floating-input-new-password"
-                            class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 bg-[#F5F5F5] focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
+                            class="peer p-5 block w-full border-gray-200 rounded-full text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 bg-[#F5F5F5] focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
                           />
                           <label
                             for="hs-hero-signup-form-floating-input-new-password"
-                            class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
+                            class="absolute top-0 start-3 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
                             >البريد الالكتروني</label
                           >
                         </div>
@@ -606,11 +605,11 @@
                           <input
                             type="text"
                             id="hs-hero-signup-form-floating-input-current-password"
-                            class="peer p-4 block w-full border-gray-200 rounded-lg text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 bg-[#F5F5F5] focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
+                            class="peer p-5 block w-full border-gray-200 rounded-full text-sm placeholder:text-transparent focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none d:bg-neutral-900 d:border-neutral-700 d:text-neutral-400 d:focus:ring-neutral-600 bg-[#F5F5F5] focus:pt-6 focus:pb-2 [&:not(:placeholder-shown)]:pt-6 [&:not(:placeholder-shown)]:pb-2 autofill:pt-6 autofill:pb-2"
                           />
                           <label
                             for="hs-hero-signup-form-floating-input-current-password"
-                            class="absolute top-0 start-0 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
+                            class="absolute top-0 start-3 p-4 h-full text-sm truncate pointer-events-none transition ease-in-out duration-100 border border-transparent origin-[0_0] d:text-white peer-disabled:opacity-50 peer-disabled:pointer-events-none text-[#8F8F8F] peer-focus:scale-90 peer-focus:translate-x-0.5 peer-focus:-translate-y-1.5 peer-focus:text-gray-500 d:peer-focus:text-neutral-500 peer-[:not(:placeholder-shown)]:scale-90 peer-[:not(:placeholder-shown)]:translate-x-0.5 peer-[:not(:placeholder-shown)]:-translate-y-1.5 peer-[:not(:placeholder-shown)]:text-gray-500 d:peer-[:not(:placeholder-shown)]:text-neutral-500 d:text-neutral-500"
                             >الرسالة</label
                           >
                         </div>

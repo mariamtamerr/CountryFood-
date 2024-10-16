@@ -34,7 +34,7 @@ const isOpen = ref(false);
           </a>
           <!-- End Logo -->
 
-          <div class="md:hidden">
+          <div class="md:hidden ml-5">
             <button
               @click="isOpen = !isOpen"
               type="button"
